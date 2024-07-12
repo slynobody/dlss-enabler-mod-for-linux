@@ -1,5 +1,5 @@
 # dlss enabler mod ... on linux / steam deck (frame-generation / upscaling; open / free / legal)
-## enables dlss- + frame-generation- options in current games
+## enables dlss- + frame-generation- options in current games (also on AMD / Intel-Chips)
 ## (regardless of graphics-card, usually doubles framerate)
 
 > git clone https://github.com/slynobody/dlss-enabler-mod-for-linux
@@ -10,6 +10,7 @@
 4. rename 'nvngx_dlss.dll' to '_nvngx.dll' in the same folder
 5. add this to 'starting-options' (steam)
 > WINEDLLOVERRIDES="version,dxgi=n,b" gamemoderun %COMMAND%
+6. start game: 'dlss' and 'frame-generation' should now be enabled / useable
 
 
 # FAQ
