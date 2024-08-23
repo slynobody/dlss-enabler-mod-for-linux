@@ -3,16 +3,14 @@
 ## (regardless of graphics-card, usually doubles framerate)
 
 > git clone https://github.com/slynobody/dlss-enabler-mod-for-linux (stable)
-> or
-> download release (beta)
+or download latest release (beta)
 
-1. unpack the files
-2. put all files in the same folder of the main executable
-3. search for and put 'nvngx_dlss.dll' in the same folder
-4. rename 'nvngx_dlss.dll' to '_nvngx.dll' in the same folder
-5. add this to 'starting-options' (steam)
+1. unpack the files insame folder of the main executable
+2. search for and put 'nvngx_dlss.dll' in the same folder
+3. rename 'nvngx_dlss.dll' to '_nvngx.dll' in the same folder
+4. add this to 'starting-options' (steam)
 > WINEDLLOVERRIDES="version,dxgi=n,b" gamemoderun %COMMAND%  --dlss-nvapi=mock
-6. start game: 'dlss' and 'frame-generation' should now be enabled / useable
+5. start game: 'dlss' and 'frame-generation' be useable
 
 
 # FAQ
