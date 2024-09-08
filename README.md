@@ -3,12 +3,14 @@
 ## (regardless of graphics-card, usually doubles framerate)
 
 > git clone https://github.com/slynobody/dlss-enabler-mod-for-linux (stable)
+
 or download latest release (beta)
 
 1. unpack the files insame folder of the main executable
 2. search for 'nvngx_dlss.dll', copy it in the exe-folder
 3. rename 'nvngx_dlss.dll' to '_nvngx.dll' in the exe-folder
 4. add this to 'starting-options' (steam)
+
 add (f.e for jedi survivor)
 > WINEDLLOVERRIDES="version,dxgi=n,b" gamemoderun %COMMAND%  --dlss-nvapi=mock
 > 
