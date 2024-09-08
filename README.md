@@ -11,10 +11,10 @@ or download latest release (beta)
 3. rename 'nvngx_dlss.dll' to '_nvngx.dll' in the exe-folder
 4. add this to 'starting-options' (steam)
 
-add (f.e for jedi survivor)
+add (>> f.e for hogwarts legacy, steam)
 > WINEDLLOVERRIDES="version,dxgi=n,b" gamemoderun %COMMAND%  --dlss-nvapi=mock
 > 
-or (>> f.e. for hogwarts legacy, steam)
+or (>> f.e. for jedi survivor, steam)
 > WINEDLLOVERRIDES="winmm=n,b" gamemoderun %COMMAND% -dlss-nvapi=mock
 >
 5. start game ('dlss' and 'frame-generation' should be useable)
