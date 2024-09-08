@@ -6,11 +6,13 @@
 or download latest release (beta)
 
 1. unpack the files insame folder of the main executable
-2. search for and put 'nvngx_dlss.dll' in the same folder
-3. rename 'nvngx_dlss.dll' to '_nvngx.dll' in the same folder
-4. add this to 'starting-options' (steam)
+2. search for 'nvngx_dlss.dll', copy it in the exe-folder
+3. rename 'nvngx_dlss.dll' to '_nvngx.dll' in the exe-folder
+4. add this to 'starting-options' (steam >> f.e for jedi survivor)
 > WINEDLLOVERRIDES="version,dxgi=n,b" gamemoderun %COMMAND%  --dlss-nvapi=mock
-5. start game: 'dlss' and 'frame-generation' be useable
+or (>> f.e. for hogwarts legacy, steam)
+> WINEDLLOVERRIDES="winmm=n,b" gamemoderun %COMMAND% -dlss-nvapi=mock
+5. start game ('dlss' and 'frame-generation' should be useable)
 
 
 # FAQ
