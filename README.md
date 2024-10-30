@@ -4,9 +4,7 @@
 
 > git clone https://github.com/slynobody/dlss-enabler-mod-for-linux (stable)
 
-or download latest release (beta)
-
-1. unpack the files insame folder of the main executable
+1. unpack the files in same folder of the main executable
 2. search for 'nvngx_dlss.dll', copy it in the exe-folder
 3. rename 'nvngx_dlss.dll' to '_nvngx.dll' in the exe-folder
 4. add this to 'starting-options' (steam)
@@ -19,6 +17,8 @@ or (>> f.e. for jedi survivor, steam)
 >
 5. start game ('dlss' and 'frame-generation' should be useable)
 
+# want a more recent & user-friendly version of 'dlss enabler'
+try: https://github.com/FakeMichau/fgmod
 
 # FAQ
 ## where do i find the 'nvngx_dlss.dll'?
