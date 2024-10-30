@@ -1,6 +1,5 @@
-# dlss enabler mod ... on linux / steam deck (frame-generation / upscaling; open / free / legal)
-## enables dlss- + frame-generation- options in current games (also on AMD / Intel-Chips)
-## (regardless of graphics-card, usually doubles framerate)
+# 'dlss' for non-nvidia-cards on linux / steam deck (FSR3.1-workaround; open / free / legal)
+## also enables 'frame-generation' in current games (AMD / Intel-Chips since 2015; usually doubles framerate)
 
 > git clone https://github.com/slynobody/dlss-enabler-mod-for-linux (stable)
 
