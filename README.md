@@ -17,7 +17,7 @@ or (>> f.e. for jedi survivor, steam)
 >
 5. start game ('dlss' and 'frame-generation' should be useable)
 
-# want a more recent & user-friendly version of 'dlss enabler'
+# want a more beta-oriented & user-friendly version of 'dlss enabler' (linux)
 try: https://github.com/FakeMichau/fgmod
 
 # FAQ
