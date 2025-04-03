@@ -9,15 +9,18 @@
 4. add this to 'starting-options' (steam)
 
 add (>> f.e for hogwarts legacy, steam)
-> WINEDLLOVERRIDES="version,dxgi=n,b" gamemoderun %COMMAND%  --dlss-nvapi=mock
+> WINEDLLOVERRIDES="version,dxgi=n,b" %COMMAND%  --dlss-nvapi=mock
 > 
 or (>> f.e. for jedi survivor, steam)
-> WINEDLLOVERRIDES="winmm=n,b" gamemoderun %COMMAND% -dlss-nvapi=mock
+> WINEDLLOVERRIDES="winmm=n,b" %COMMAND% -dlss-nvapi=mock
 >
 5. start game ('dlss' and 'frame-generation' should be useable)
 
-# want a more beta-oriented & user-friendly version of 'dlss enabler' (linux)
-try: https://github.com/FakeMichau/fgmod
+# it does not work with rdr2 (vulkan)?!
+dlss only (no fg yet): download rdr3_dlss.tar.gz, untar, put all files in rdr2-folder, add >WINEDLLOVERRIDES="version=n,b" %COMMAND%< to steams starting options)
+
+# want a more user-friendly version (linux)
+try: https://github.com/xXJSONDeruloXx/Decky-Framegen (needs decky-loader: https://decky.xyz/)
 
 # FAQ
 ## where do i find the 'nvngx_dlss.dll'?
